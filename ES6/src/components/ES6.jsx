@@ -60,7 +60,7 @@ export default function ES6() {
       const box  = (h , w) => h + w;
 
 
-      document.write('<br/>' + box(10,10));
+     
 
         // variables 
 
@@ -133,12 +133,8 @@ function isntTrue(){
 // }
 
 
-
-
-
-
-
  
+// eslint-disable-next-line no-unreachable
 bool ? isTrue() : isntTrue();
 
 

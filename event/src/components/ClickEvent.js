@@ -7,6 +7,7 @@ function ClickEvent() {
     console.log('button click')
   }
 
+  window.addEventListener()
 
   return (
     <div >
