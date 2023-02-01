@@ -6,29 +6,38 @@ import React, { Component } from 'react'
       super(props)
     
       this.state = {
-          isLoggedIn: true 
+          isLoggedIn: false 
       }
     }
-    
+
 
 
 
   render() {
 
-
+     let Message
     if (this.state.isLoggedIn){
 
-        return(
-            <div>
-                hello me 
-            </div>
-        )
+        Message = <div>alpha</div> 
+       
     } else{
 
-        return(
-            <div> get out of here </div>
-        )
+       
+        Message =  <div> get out of here </div>
+      
     }
+
+    return <div>{Message}</div>
+
+
+
+
+
+
+
+    //return as a div
+    
+
 
     // return (
     //   <div> 
