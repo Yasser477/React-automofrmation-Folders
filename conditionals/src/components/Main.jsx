@@ -15,7 +15,7 @@ import React, { Component } from 'react'
 
   render() {
 
-     let Message
+     let Message 
     if (this.state.isLoggedIn){
 
         Message = <div>alpha</div> 
