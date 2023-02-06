@@ -1,11 +1,10 @@
-import React from "react";
-import Lists from "./components/Lists";
+import React from 'react';
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
-
-          <Lists/>
+      <Form/>
     </div>
   );
 }
